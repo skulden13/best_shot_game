@@ -19,6 +19,14 @@ npm run typecheck
 npm run build      # Type-check and produce dist/
 ```
 
+## Publish to GitHub Pages
+
+Build and publish `dist/` to the `gh-pages` branch on `origin`:
+
+```sh
+npm run deploy
+```
+
 ## Tests
 
 For running tests, call:
